@@ -4,37 +4,29 @@ Configuration
 The default settings should be enough for most of the cases.
 For more specific use cases, you can customize these configuration options in your ``conf.py`` file:
 
-.. confval:: hoverxref_project
+.. confval:: hoverxref_project (string)
 
-   Description: Read the Docs project slug
+   Read the Docs project slug
 
-   Default: It defaults to ``READTHEDOCS_PROJECT`` environment variable
+   Default: The value of the ``READTHEDOCS_PROJECT`` environment variable
 
-   Type: string
+.. confval:: hoverxref_version (string)
 
-.. confval:: hoverxref_version
+   Read the Docs version slug
 
-   Description: Read the Docs version slug
+   Default: The value ``READTHEDOCS_VERSION`` environment variable
 
-   Default: It defaults to ``READTHEDOCS_VERSION`` environment variable
+.. confval:: hoverxref_tooltip_api_host (string)
 
-   Type: string
-
-.. confval:: hoverxref_tooltip_api_host
-
-   Description: Host URL for the API to retrieve the tooltip content
+   Host URL for the API to retrieve the tooltip content
 
    Default: ``https://readthedocs.org``
 
-   Type: string
+.. confval:: hoverxref_auto_ref (bool)
 
-.. confval:: hoverxref_auto_ref
-
-   Description: Make all ``:ref:`` role to show a tooltip
+   Make all ``:ref:`` role to show a tooltip
 
    Default: ``False``
-
-   Type: bool
 
 .. confval:: hoverxref_domains
 
